@@ -1,0 +1,12 @@
+# Meteo Config
+# https://www.spigotmc.org/resources/meteo.43384/
+
+#Do not change it
+version: 3
+
+# Language Settings | Available: fr_FR or en_US
+lang: fr_FR
+
+
+timeday: 0
+timenight: 14000

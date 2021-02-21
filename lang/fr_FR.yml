@@ -1,0 +1,29 @@
+no-perm: "Vous n'avez pas la permission d'utiliser cette commande"
+error-not-found: "Commande Inconnue"
+msg-ingame-only: "Commande a executé en jeux uniquement"
+
+msg-sun: "Vous avez activÃ© le beau temps."
+msg-rain: "Vous avez activÃ© la pluie."
+msg-day: "Le jour se lÃ©ve."
+msg-night: "La nuit se lÃ©ve."
+msg-storm: "L'orage commence a arriver."
+msg-reload: "Configuration rechargÃ©"
+
+msg-help-header: "Liste des commandes"
+msg-help-help: "Affiche la liste des commandes"
+msg-help-sun: "Active le beau-temps"
+msg-help-rain: "Active la pluie"
+msg-help-day: "Met le jour"
+msg-help-night: "Met la nuit"
+msg-help-storm: "Active l'orage"
+msg-help-version: "Affiche la version du plugins"
+msg-version-l2: "Par "
+
+Update-found-msg1: "Mise a jour trouvée: %newversion Version actuelle: %currentversion"
+Update-found-msg2: "Mise a jour disponible à l'adresse => "
+Update-no-found: "Pas de mise a jour trouvée ! Vous utiliser la derniére version"
+
+Lang-load: "Langue chargée"
+
+System-load: "Chargée"
+System-unload: "Dechargée"

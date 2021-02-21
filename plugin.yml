@@ -1,0 +1,58 @@
+name: Meteo
+main: fr.max.Meteo.Meteo
+author: max100100
+version: 1.1-b1
+description:
+
+commands:
+  meteo:
+    description: View commands
+    usage: /<command>
+
+permissions:
+  meteo.*:
+    description: Give access to all Meteo commands
+    children:
+        meteo.cmd.meteo: true
+        meteo.cmd.sun: true
+        meteo.cmd.rain: true
+        meteo.cmd.day: true
+        meteo.cmd.night: true
+        meteo.cmd.help: true
+        meteo.cmd.version: true
+        meteo.cmd.storm: true
+        meteo.cmd.reload: true
+  meteo.cmd.meteo:
+    description: Give access to /meteo command
+  meteo.cmd.sun:
+    description: Give access to /meteo sun command
+    children:
+      meteo.cmd.meteo: true
+  meteo.cmd.rain:
+    description: Give access to /meteo rain command
+    children:
+      meteo.cmd.meteo: true
+  meteo.cmd.day:
+    description: Give access to /meteo day command
+    children:
+      meteo.cmd.meteo: true
+  meteo.cmd.night:
+    description: Give access to /meteo night command
+    children:
+      meteo.cmd.meteo: true
+  meteo.cmd.help:
+    description: Give access to /meteo help command
+    children:
+      meteo.cmd.meteo: true
+  meteo.cmd.version:
+    description: Give access to /meteo version command
+    children:
+      meteo.cmd.meteo: true
+  meteo.cmd.storm:
+    description: Give access to /meteo storm command
+    children:
+      meteo.cmd.meteo: true
+  meteo.cmd.reload:
+    description: Give access to /meteo reload command
+    children:
+      meteo.cmd.meteo: true

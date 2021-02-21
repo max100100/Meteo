@@ -1,0 +1,29 @@
+no-perm: "You don't have permission to use this command"
+error-not-found: "Unknown Command"
+msg-ingame-only: "Command Ingame only"
+
+msg-sun: "You have turned on the weather."
+msg-rain: "You have turned on the rain."
+msg-day: "The day is getting up."
+msg-night: "The night is getting up."
+msg-storm: "The storm begins to arrive."
+msg-reload: "Configuration reloaded"
+
+msg-help-header: "List of commands"
+msg-help-help: "Display the list of commands"
+msg-help-sun: "Put the sun"
+msg-help-rain: "Put the rain"
+msg-help-day: "Lets put the day"
+msg-help-night: "Lets put the night"
+msg-help-storm: "Turn on the storm"
+msg-help-version: "Shows the version of the plugins"
+msg-version-l2: "By "
+
+Update-found-msg1: "Update found: %newversion Current version: %currentversion"
+Update-found-msg2: "Update available at => "
+Update-no-found: "No update found ! You use the last version"
+
+Lang-load: "Language loaded"
+
+System-load: "Loaded"
+System-unload: "Unloaded"
